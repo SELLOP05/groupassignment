@@ -1,0 +1,98 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>KFC Order Tracking</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li> 
+                <li><a href="#">About Us</a></li> 
+                <li><a href="#">Contact Us</a></li> 
+            </ul
+        </nav>
+    </header>
+    <section class="hlooho">
+     <div>   
+    <p class="img"><img src="logo.png" alt=""></p>
+</div>
+<div>
+    <h1>FOODHUB</h1>
+</div>
+</section>
+    <div id="menu">
+        <!-- Menu items with thumbnail images -->
+        <!-- Example: -->
+        <div > 
+            <img src="Burger.jpg" alt="" width="200px" >
+        <section>
+            <p class="a">Burger</p>
+            <button class="menu-item" onclick="addToOrder('Burger')">PlaceOrder</button>
+        </section>
+        </div>
+        <!-- Repeat for other menu items -->
+        <div > 
+            <img src="wrap.png" alt="">
+            <p class="a">Chicken wrap</p>
+            <button class="menu-item" onclick="addToOrder('Chicken_wrap')">PlaceOrder</button>
+        </div>
+
+        <div > 
+            <img src="duncked wings.jpg" alt="Duncked_Wings" width="200px" height="200px">
+            <p class="a">Duncked Wings</p>
+            <button class="menu-item" onclick="addToOrder('Duncked_Wings')">PlaceOrder</button>
+        </div>
+
+        <div > 
+           
+            <img src="ice cream.png" alt="Ice_cream">
+            <section>
+            <p class="a">Ice cream</p>
+            <button class="menu-item" onclick="addToOrder('Ice_cream')">PlaceOrder</button>
+        </section>
+        </div>
+
+        <div > 
+            <img src="milkshake.jpg" alt="Milk_shake">
+            <p class="a">Milk shake</p>
+            <button class="menu-item" onclick="addToOrder('Milk_shake')">PlaceOrder</button>
+        </div>
+    </div>
+
+    <div id="order">
+        <h2>Placed Orders</h2>
+        <ul id="order-list">
+            <!-- Display placed orders dynamically -->
+        </ul>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Meals</a></li>
+                <li><a href="#">Promotions</a></li> 
+                <li><a href="#">Drinks</a></li> 
+                <li><a href="#">Sauces</a></li> 
+            </ul>
+            
+        </nav>
+      </footer>
+      <div class="nka">
+        <img src="11.png" alt="" class="tlase">
+        <img src="22.png" alt="" class="tlase">
+        <img src="33.png" alt="" class="tlase">
+        <img src="44.png" alt="" class="tlase">
+        <img src="55.png" alt="" class="tlase">
+      </div>
+        <p class="copy">copyright &#9400 2023. created by Reabetsoe Sephekola, Itumeleng Sello, Mokholane Kanei, Toka Lethunya, Boithatelo Motelle</p>
+      
+
+    <script src="main.js"></script>
+</body>
+</html>
